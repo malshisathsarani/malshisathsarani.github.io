@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Buy Products</title>
+        <link rel="stylesheet" href="Buy.css">
+    </head>
+
+    <body>
+
+
+  <!--navigation bar from Student 4-->
+  <nav class="navbar">
+    <div class="weblogo">
+      <a href="Homepage.html">
+        <img  class="weblogo" src="Logo.png" alt="PageLogo"></a>
+    </div>
+    <ul class="navlist" id="navlist">
+     <li class="list-item"><a href="Present.html">Home</a></li>
+ <li class="list-item"><a href="nopage.html">Gallery </a></li>
+     <li class="list-item"><a href="comments.html">Comments</a></li>
+     <li class="list-item"><a href="Buy.html">Shop</a></li>
+     <li class="list-item"><a href="nopage.html">Quiz</a></li>
+     <li class="list-item"><a href="nopage.html">Site Map</a></li>
+     <li class="list-item"><a href="nopage.html" class="activepage">About us</a></li>
+   </ul>
+   <div class="hamburger" id="togglebutton">
+    <div class="menu-line"></div>
+    <div class="menu-line"></div>
+    <div class="menu-line"></div> 
+   </div>
+
+  </nav>
+
+
+
+
+ <!--Heading part of my additional page(Topics and LOGo)-->
+      <h1>  Movie Flix<br> Online  Store</h1>
+
+      <div class = "logo">
+        <img src="logo.png" alt="logo">
+      </div>
+
+ <!--User Form-->
+
+<section class="product-page">
+		<div class="product-page-content">
+			<div class="product-form">
+			  <form>
+				<div class="product-form-element">
+				  <label for="customer-name">Name    : </label>
+				  <input type="text" id="customer-name" name="name" >
+				</div>
+				<div class="product-form-element">
+				  <label for="customer-email">E-Mail : </label>
+				  <input type="text" id="customer-email" name="email" >
+				</div>
+        <div class="product-form-element">
+          <label for="MobileNumber"> Mobile Number : </label>
+          <input type="text" name="MobileNumber" id="MobileNumber" placeholder=" 07XXXXXXXX "> 
+          <div class="error"></div>
+      </div>
+			</form>
+		  </div>	
+
+
+ <!--Fims in the shop with name and prices-->
+
+<div class="film" id="film1">
+  <img src="animation4.jpg" alt="" class="image1">
+  <p id="name">Kunfu Panda</p>
+  <p id="prize">Rs.1000.00</p>
+
+</div>
+
+<div class="film" id="film2">
+  <img src="animation2.jpg" alt="" class="image1">
+  <p id="name">First Love</p>
+  <p id="prize">Rs.1000.00</p>
+
+</div>
+
+<div class="film" id="film3">
+  <img src="animation3.jpg" alt="" class="image1">
+  <p id="name">Minions</p>
+  <p id="prize">Rs.1100.00</p>
+
+</div>
+
+<div class="film" id="film4">
+  <img src="animation7.jpg" alt="" class="image1">
+  <p id="name">The Smufs</p>
+  <p id="prize">Rs.1000.00</p>
+
+</div>
+
+<div class="film" id="film5">
+  <img src="animation5.jpg" alt="" class="image1">
+  <p id="name">After</p>
+  <p id="prize">Rs.1700.00</p>
+
+</div>
+
+<div class="film" id="film6">
+  <img src="animation6.jpg" alt="" class="image1">
+  <p id="name">2 Hearts</p>
+  <p id="prize">Rs.1300.00</p>
+
+</div>
+
+<div class="film" id="film7">
+  <img src="animation.jpg" alt="" class="image1">
+  <p id="name">Rio</p>
+  <p id="prize">Rs.1500</p>
+
+</div>
+
+<div class="film" id="film8">
+  <img src="animation8.jpg" alt="" class="image1">
+  <p id="name">Brave</p>
+  <p id="prize">Rs.1000.00</p>
+
+</div>
+
+
+<div class="film" id="film9">
+  <img src="animation9.jpg" alt="" class="image1">
+  <p id="name">Ashiq 2</p>
+  <p id="prize">Rs.1700.00</p>
+
+</div>
+
+
+<div class="film" id="film10">
+  <img src="horror.jpg" alt="" class="image1">
+  <p id="name">Home</p>
+  <p id="prize">Rs.1300.00</p>
+
+</div>
+
+
+<div class="film" id="film11">
+  <img src="animation11.jpg" alt="" class="image1">
+  <p id="name">Purple Heart</p>
+  <p id="prize">Rs.1500.00</p>
+
+</div>
+
+<div class="film" id="film12">
+    <img src="animation12.jpg" alt="" class="image1">
+    <p id="name">The Spongbob</p>
+    <p id="prize">Rs.1200.00</p>
+
+</div>
+
+<div class="film" id="film13">
+    <img src="IT.jpg" alt="" class="image1">
+    <p id="name">IT</p>
+    <p id="prize">Rs.1300.00</p>
+
+</div>
+
+ <!--Order Bar-->
+
+
+<div id="order">
+    <h3 id="name">ORDER NOW:</h3>
+</div>
+
+ <!--Some Details to fill in Bottom bar-->
+
+
+<div class="bottombar">
+    <form>
+
+        <label for="MovieOption"> Movie Type:</label>
+        <select name="MovieOption">
+            <option value="">Select Movie Type</option>
+            <option value="Animation">Fantasy</option>
+            <option value="Horror">Horror</option>
+            <option value="Horror">Romantic</option>
+        </select>
+
+        <br>
+        <br>
+
+        <Label id="MoviePrice">Movie Price:</Label>
+
+        <input type="radio" name="MoviePrice" value="Rs.1000 - 1500">
+        <Label for="Rs">Rs.1000 - 1500</Label>
+
+        <input type="radio" name="MoviePrice" value="Rs.1000 - 1500">
+        <Label for="Rs.1000 - 1500">Rs.900 - 1000</Label>
+
+        <input type="radio" name="MoviePrice" value="Rs.1000 - 1500">
+        <Label for="Rs.1000 - 1500">Rs.1500 - 2000</Label>
+
+    </form>
+
+    <br><br>
+
+     <!--If User had a Question-->
+
+    <div>
+            
+      <label for="Details"> Query Message </label>
+      <textarea rows = "7" id = "Details" placeholder=" Enter your message  "></textarea>
+      <div class="error"></div>
+    </div>
+
+    <br><br><br>
+
+     <!--Order Clear And Comform Buttons-->
+
+    <form>
+      <input type="button" name="clear" value="Clear Your Order" id="clearbutton">
+      <input type="button" name="place" value="Conform Your Order" id="placebutton" onclick="myFunction()">
+    </form>
+
+</div>
+
+
+</section>
+
+
+<!--backtotop-->
+  <div class="backtotop"><a href=""> Back To Top </a></div>
+  <!--pageeditor-->
+  <div class="pageeditor"><a href="pageEditor3.html"> Page Editor </a></div>
+
+
+<!--footer-->
+  <div class="footer">
+   <div class="col1">
+     <h3>STREAMING PLATFORMS</h3>
+     <a href="https://youtube.com/" target="_blank">You Tube</a>
+     <a href="https://www.netflix.com/lk" target="_blank">Netflix</a>
+     <a href="https://disneyplus.com/" target="_blank">Disney+</a>
+     <a href="https://www.apple.com/apple-tv-plus/" target="_blank">Apple TV</a>
+   </div>
+
+   <div class="col2">
+     <h3>NEWSLETETR</h3>
+     <form action="mailto:ishma.20222287@iit.ac.lk" method="post" enctype="text/plain">
+       <input type="email" placeholder="Enter your Email address" required><br>
+       <button type="submit">SUBSCRIBE</button>
+     </form>
+   </div>
+   <div class="col3">
+     <h3>FOLLOW US ON</h3>
+     <div class="media">
+       <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+       <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+       <a href="https://www.reddit.com/" target="_blank"><i class="fa fa-reddit-alien"></i></a>
+       <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+       <a href="https://www.printerest.com/login/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+       <a href="https://www.toutube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+     </div>
+     
+   </div>
+  </div>
+
+
+  <!--for icons-->
+
+  <script src="https://kit.fontawesome.com/42d4d02d7b.js" crossorigin="anonymous"></script>
+  <script src="navi.js"></script>
+
+<script src="Buy.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,507 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+/*Logo*/
+.logo img{
+  width: 330px;
+  height:auto;
+  margin-top: 0%;
+  margin-left: 10%;
+}
+
+/* Head Topic Of Movie Flix*/
+h1{
+  color: aqua;
+  position: absolute;
+  margin-left: 50%;
+  font-size: 450%;
+}
+
+/* Styles For Movies*/
+
+#film1{
+  background-color: white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 230px;
+  height: 350px;
+}
+
+#film2{
+  background-color: white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 270px;
+  width: 230px;
+  height: 350px;
+}
+
+#film3{
+  background-color: white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 520px;
+  width: 230px;
+  height: 350px;
+}
+
+
+#film4{
+  background-color: white;
+  position: relative;
+  margin-top: 500px;
+  margin-left: 20px;
+  width: 230px;
+  height: 350px;
+}
+
+#film5{
+  background-color: white;
+  position: relative;
+  margin-top: -370px;
+  margin-left: 270px;
+  width: 230px;
+  height: 350px;
+}
+
+#film6{
+  background-color: white;
+  position: relative;
+  margin-top: -770px;
+  margin-left: 770px;
+  width: 230px;
+  height: 350px;
+}
+
+#film7{
+  background-color: white;
+  position: relative;
+  margin-top: -370px;
+  margin-left: 1020px;
+  width: 230px;
+  height: 350px;
+}
+
+#film8{
+  background-color: white;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 520px;
+  width: 230px;
+  height: 350px;
+}
+
+#film9{
+  background-color: white;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 770px;
+  width: 230px;
+  height: 350px;
+}
+
+
+#film10{
+  background-color: white;
+  position: relative;
+  margin-top: -370px;
+  margin-left: 1020px;
+  width: 230px;
+  height: 350px;
+}
+
+
+#film11{
+  background-color: white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 230px;
+  height: 350px;
+}
+
+#film12{
+  background-color: white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 270px;
+  width: 230px;
+  height: 350px;
+}
+
+#film13{
+  background-color: white;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 520px;
+  width: 230px;
+  height: 350px;
+}
+
+#name{
+  margin-left: 90px; 
+  font-weight: bold; 
+}
+
+#prize{
+  margin-left: 90px;
+  color: rgb(236, 52, 70);
+  font-weight: bold;
+  text-align: left;
+}
+
+
+
+/* Style for moveis Order Bar*/
+
+#order{
+  background-color: rgba(52, 54, 70, 0.833);
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 800px;
+  width: 230px;
+  height: 450px;
+  color: antiquewhite;
+
+}
+
+.film {
+  margin-bottom: 20px;
+}
+
+
+.image1{
+  width: 230px;
+  height: 220px;
+}
+
+
+h3{
+  margin-left: 28%;
+}
+
+/* Styles For User Details */
+
+.bottombar{
+  background-color:  rgba(41, 41, 54, 0.833);
+  margin-top: 600px;
+  margin-left: 0px;
+  margin-right: 30px;
+ padding: 3%;
+ font-size: 100%;
+ color: rgb(255, 255, 255);
+
+  
+}
+
+
+li{
+  color: aliceblue;
+  list-style-type: none;
+  text-align: center;
+  font-size: 160%;
+  margin-top: 0%;
+}
+
+/* Styles For User details top of the  page*/
+
+.product-form-element {
+  padding-bottom: 20px;
+  padding-top:15px;
+  margin-left:-50px;
+  font-size:20px;
+  background-color:#343647;
+  color: aliceblue;
+  
+}
+
+.product-form-element label {
+  padding-right: 20px;
+  margin-left:600px;
+  
+  
+}
+
+/* Conform order button Styles*/
+
+#placebutton{
+  border: none;
+  color: white;
+  padding: 25px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 14px 2px;
+  background-color:#e51e1e;
+  cursor: pointer;
+  border-radius:12px;
+}
+
+/* Clear Button Styles*/
+
+#clearbutton{
+  border: none;
+  color: white;
+  padding: 25px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 14px 2px;
+  background-color:#b40e0e;
+  cursor: pointer;
+  border-radius:12px;
+}
+
+
+#clearbutton{
+  margin-left: 150px;
+ 
+}
+
+
+
+
+/* Navigation Bar Styles From Student 2*/
+
+.navbar{
+  background-color: #A22C29;
+  color: white;
+  display: flex;/*elemnts fluid*/
+  justify-content: space-around;
+  align-items: navbar;
+  font-size: 25px;
+  margin-top: -10px;
+  margin-left: -8px;
+  margin-right: -90px;
+  
+  
+}
+.navlist{
+  list-style-type: none;
+  text-align: center;
+  padding-top:0px;
+
+
+  
+}
+/*list are block levele so to place them side by side use inblock*/
+
+.navlist .list-item{
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 120%;
+
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover:not(.activepage){
+  color: black;
+}
+/*weblogo*/
+.weblogo{
+  height: 100px;
+}
+.weblogo {
+  margin-left: -10px;
+  height: 100px;
+  width: 110px;
+  margin-top: 1%;
+}
+/*only appears for smaller screens*/
+.hamburger{
+  display: none;
+}
+/*lines of the hamburger icon*/
+.menu-line{
+  width:20px;
+  height:3px;
+  background-color: white;
+  margin-top:4px;
+}
+/*indicate active page*/
+.activepage{
+  background-color: #B9BAA3;
+
+ 
+}
+@media all and (max-width:800px){
+  /*hide menu for larger screens and make it smaller for mobile devices*/
+  .navbar{
+    flex-direction: column;
+    position: absolute;
+  
+  }
+  .navbar .weblogo{
+    margin-right: -20%;
+    width: 200px;
+    height:20vh;
+  }
+  /*toggle icon that apeears when the screen is smaller*/
+  .hamburger{
+    display: block;
+    position:absolute;
+    right: 15px;
+    top:15px;
+  }
+  .navlist .list-item{
+    display: inline-block;
+    padding: 10px 10px;
+    border-top:1px solid white;
+    
+  }
+  .navlist{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+
+
+  }/*to mae the navbar block and drop down when clicking on toggle button*/
+  .active{
+    display:block ;
+  }
+  
+
+}
+
+/*footer CSS*/
+
+.footer{
+  margin-top: 170px;
+  width: 100%;
+  padding: 25px 0.1% ;
+  background-color:#B9BAA3;
+  display: flex; /* columns will be side by side*/
+  height: 200px;
+  color:#a22c29;
+
+}
+
+.footer div{
+  text-align: center;
+
+}
+.col3 a{
+	color:#a22c29;
+}
+col3 a:hover{
+	color:rgb(239,217,189);
+}
+.media a:hover{
+	color:rgb(239,217,189);
+}
+/* X2 times space between column content in footer*/
+.col2{
+  flex-grow:2;
+}
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+
+/*CSS for streaming column */
+.col1 a{
+  display: block;
+  text-decoration:none ;/*to remove underlines*/
+  margin-bottom: 10px;/*add space at bottom*/
+  color:  #a22c29;
+}
+
+/*for form newsletter*/
+form input{
+  width:250px; /*input field width and height*/
+  height:45px;
+  border-radius: 3px;/*curve input field corners*/
+  text-align: cetre;
+  margin-top: 20px; /*space left for top and bottom*/
+  margin-bottom: 40px;
+  outline: none;
+  border:none;
+  margin-bottom: 10px;
+}
+
+form button{
+  background: white;
+  border: none;
+  color:#a70000;
+  border-radius: 9px;
+  padding: 10px 30px;
+  font-family:'Times New Roman', Times, serif;
+  cursor: pointer;
+  width:140px;
+  height:40px;
+  text-align: center;
+  
+
+  border:none;
+}
+.media{
+  margin-top: 30px;
+}
+.media i{/*icon stuff*/
+  font-size: 22px;
+  margin: 10px;
+  cursor:pointer;
+}
+.backtotop a{
+  text-decoration:none;
+  color:#a70000;
+  font-size:28px;
+  background-color:#B9BAA3;
+  border:2px ridge #a70000;
+  float:right;
+  margin-right: 10px;
+  margin-top: 170px;
+  width:180px;
+  
+  
+}
+.pageeditor a{
+  text-decoration:none;
+  color:#a70000;
+  font-size:28px;
+  background-color:#B9BAA3;
+  border:2px ridge #a70000;
+  float:left;
+  margin-left: 10px;
+  margin-top: 170px;
+  width:160px;
+  font-weight: 300;
+
+}
+.pageeditor a:hover{
+  color:#ffffff;
+  font-weight:500;
+  cursor: pointer;
+}
+
+
+@media all and (max-width:700px){
+  .footer{
+    width: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

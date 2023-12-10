@@ -1,0 +1,199 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  
+  background-color:#D6D5C9;
+  background-size: cover;
+}
+header{
+  max-height: 20%;
+  
+}
+.kidsmoviesimage{
+  height:auto;
+  opacity:1;
+  margin-left: 100px;
+  width:500px;
+  height:450px;
+
+}
+.content{
+  max-height: 200px;
+  
+}
+
+.fantasymoviesimage{
+ 
+  opacity:1;
+  margin-right: 100px;
+  width:500px;
+  height:450px;
+
+}
+
+
+.row {
+  display:flex; /*to make the images in a row*/
+  padding: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.row div{
+  margin: 10px 100px -350px 100px;
+
+  
+}
+.row img{
+transition: transform 0.5s;
+  
+  width: 300px;
+  height:400px;
+  margin:auto;
+  
+}/* box size when hovering image*/
+.row img:hover{
+  box-shadow: 10px 15px 5px #262525;
+}
+.row img:hover{
+  transform: scale(1.1);/*gives the zoom effect*/
+}
+
+h1{
+  position: static;
+  margin-top:100px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 200px;
+  font-size: 100px;
+}
+
+
+
+.about{
+ position: realtive;
+  width: 50%;
+  text-align: justify;
+  font-size: large;
+  margin: 0px 287px;
+
+
+}
+.about h2{
+  text-align: center;
+  margin-top: -50px;
+  font-size: x-large;
+  
+  
+}
+.about p{
+  font-size: larger;
+  text-align: justify;
+  margin-top: 13px;
+  margin-left: 70px;
+  margin-right:40px;
+  color: #f8f8f8;
+ 
+}
+
+.SocialMedia li a {
+  display:inline;
+  list-style-type:none;
+  color: white;
+  text-decoration:none;
+  font-size: large;
+  padding-bottom: 1cm;
+  padding-left: 2cm;
+
+
+}
+h4{
+  color: #a22c29;
+  font-weight: bold;
+  
+}
+.SocialMedia li  {
+ 
+  list-style-type:none;
+  color: #a22c29;
+  text-decoration:none;
+}
+.Media img{
+  width: 0.5cm;
+  height: 0.5cm;
+}
+.topcontainer{
+
+background-image:url("imagesStudent2/headerbg.jpeg");
+height: 500px;
+margin-top: -100px;/*reduce space between navbar and top conatiner*/
+
+
+}
+
+
+
+
+
+
+
+
+.backtotop a{
+  text-decoration:none;
+  color:#a70000;
+  font-size:28px;
+  background-color:#B9BAA3;
+  border:2px ridge #a70000;
+  float:right;
+  margin-right: 20px;
+  margin-top: 1300px;
+  width:180px;
+  margin-bottom: 100px;
+  
+  
+}
+.backtotop a:hover{
+  color:#ffffff;
+  font-weight: 900;
+}
+.pageeditor a{
+  text-decoration:none;
+  color:#a70000;
+  font-size:28px;
+  background-color:#B9BAA3;
+  border:2px ridge #a70000;
+  float:left;
+  margin-left: 10px;
+  margin-top: 1300px;
+  width:160px;
+  font-weight: 300;
+  margin-bottom: 100px;
+
+}
+.pageeditor a:hover{
+  color:#ffffff;
+  font-weight: 900;
+  cursor: pointer;
+
+}
+
+
+
+@media all and (max-width:800px){
+  .about{
+    width:auto;
+  }
+  .footer{
+    width: auto;
+  }
+}
+
+
+
+
+

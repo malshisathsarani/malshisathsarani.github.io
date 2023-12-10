@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.banner img{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 5%;
+	right: 30%;
+	border-radius: 30%;
+	opacity: 90%;
+}
+
+
+body{
+	display: flex;
+	justify-content: center;
+	background-color: #000000;
+}
+
+
+.content{
+	display: flex;
+	margin-top: -20%;
+	align-items: center;
+	font-family: 'Calistoga', cursive;
+}
+
+.content .Static-txt{
+	color: white;
+	font-size: 80px;
+	font-weight: 100;
+	margin-top: 50%;
+}
+
+.content .animate{
+	margin-left: 15px;
+	line-height: 90px;
+	height: 90px;
+	overflow: hidden;
+	margin-top: 50%;
+
+}
+
+.animate li{
+	list-style: none;
+	color: red;
+	font-size: 80px;
+	font-weight: 100;
+	position: relative;
+	top: 0;
+	animation: slide 12s steps(4) 
+	infinite;
+}
+
+@keyframes slide{
+	100%{
+		top: -360px;
+	}
+}
+
+.animate li{
+	position: relative;
+}
+
+.animate li::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000000;
+	border-left: 2px solid rgb(129, 10, 10);
+	animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing{
+	40%,
+	60%{
+		left: calc(100% + 30px);
+	}
+	100%{
+		left: 0;
+	}
+}
+
+.subtopic{
+	color:white ;
+	font-size: 150%;
+	text-align: center;
+	margin-top: 10%;
+	position: absolute;
+	font-family: 'Poiret One', cursive;
+}
+
+
+
+h6{
+	color: rgb(204, 205, 227);
+	margin-top: auto;
+	font-size: 20px
+}
+
+.student1{
+	left: 0%;
+}
+
+.student2{
+	left: 30%;
+}
+
+.student3{
+	left: 50%;
+}
+
+.student4{
+	left: 80%;
+}

@@ -1,0 +1,358 @@
+
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+
+#navigation ul{
+    list-style-type: none;
+    margin:30%;
+    background-color: #ffffff;
+  }
+
+.header a {
+    display: inline;
+    padding: 8px;
+    background-color: #a70000;
+  }
+
+  .header li {
+    float: left;
+    border-right:B9BAA3;
+    list-style-type: none;
+    
+  }
+
+  #navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 49px;
+    text-decoration: none;
+  }
+
+.header li a:hover {
+    background-color:B9BAA3;
+  }
+
+.active {
+    background-color: #d71414;
+  }
+
+h1{
+  font-size: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style:calc();
+  text-align: center;
+  font-size: 450%;
+  color: #fcfcfd;
+}
+
+hr{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+p{
+  letter-spacing: 0.5px;
+  text-align:center;
+  line-height: 1.8;
+  font-family: cursive;
+  color: aliceblue;
+  width: 80%;
+  padding-left: 10%;
+
+ 
+}
+
+h4{
+  letter-spacing: 9px;
+  word-spacing: 1px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(222, 222, 222);
+
+ 
+  
+}
+
+figure{
+  border: thin silver solid;
+  width: 20%;
+  text-align: center;
+  background-color: rgba(64, 64, 64, 0.34);
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+  float: right;
+ margin-right:20%;
+ margin-left: auto;
+  
+}
+
+
+
+
+figcaption{
+  font-size: 110%;
+  color: #ffffff;
+}
+
+h3{
+  border:thin #c0c0c0 solid;
+  text-align: center;
+  background-color:#ffffff;
+  padding: 20px;
+  border-width: 5ca;
+
+}
+
+h2{
+ color: white;
+ text-align: center;
+ 
+}
+
+#section2{
+  margin-top: 40%;
+}
+#section3{
+  margin-top: 40%;
+}
+#section4{
+  margin-top: 40%;
+}
+#section5{
+  margin-top: 40%;
+}
+#section6{
+  margin-top: 40%;
+}
+#section7{
+  margin-top: 40%;
+}
+
+
+
+/*nav bar*/
+
+.navbar{
+  background-color: #A22C29;
+  color: white;
+  display: flex;/*elemnts fluid*/
+  justify-content: space-around;
+  align-items: navbar;
+  font-size: 28px;
+  margin-top: -10px;
+  margin-left: -9px;
+  margin-right: -10px;
+}
+.navlist{
+  list-style-type: none;
+  text-align: center;
+  padding-top:10px;
+
+
+  
+}
+/*list are block levele so to place them side by side use inblock*/
+
+.navlist .list-item{
+  display: inline-block;
+  padding: 10px 10px;
+
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover:not(.activepage){
+  color: black;
+}
+/*weblogo*/
+.weblogo{
+  height: 100px;
+}
+.weblogo {
+  margin-left: -30px;
+  height: 110px;
+  width: 120px;
+
+}
+/*only appears for smaller screens*/
+.hamburger{
+  display: none;
+}
+/*lines of the hamburger icon*/
+.menu-line{
+  width:20px;
+  height:3px;
+  background-color: white;
+  margin-top:4px;
+}
+/*indicate active page*/
+.activepage{
+  background-color: #B9BAA3;
+
+ 
+}
+@media all and (max-width:800px){
+  /*hide menu for larger screens and make it smaller for mobile devices*/
+  .navbar{
+    flex-direction: column;
+    position: relative;
+  }
+  .navbar .weblogo{
+    margin-left: 93px;
+    width: 200px;
+    height:20vh;
+  }
+  /*toggle icon that apeears when the screen is smaller*/
+  .hamburger{
+    display: block;
+    position:absolute;
+    right: 15px;
+    top:15px;
+  }
+  .navlist .list-item{
+    display: inline-block;
+    padding: 10px 10px;
+    border-top:1px solid white;
+    
+  }
+  .navlist{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+
+
+  }/*to mae the navbar block and drop down when clicking on toggle button*/
+  .active{
+    display:block ;
+  }
+  
+
+}
+
+/*footer CSS*/
+
+.footer{
+  margin-top: 170px;
+  width: 100%;
+  padding: 25px 0.1% ;
+  background-color:#B9BAA3;
+  display: flex; /* columns will be side by side*/
+  height: 200px;
+  color:#a22c29;
+
+}
+
+.footer div{
+  text-align: center;
+
+}
+.col3 a{
+	color:#a22c29;
+}
+col3 a:hover{
+	color:rgb(239,217,189);
+}
+.media a:hover{
+	color:rgb(239,217,189);
+}
+/* X2 times space between column content in footer*/
+.col2{
+  flex-grow:2;
+}
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+
+/*CSS for streaming column */
+.col1 a{
+  display: block;
+  text-decoration:none ;/*to remove underlines*/
+  margin-bottom: 10px;/*add space at bottom*/
+  color:  #a22c29;
+}
+
+/*for form newsletter*/
+form input{
+  width:250px; /*input field width and height*/
+  height:45px;
+  border-radius: 3px;/*curve input field corners*/
+  text-align: cetre;
+  margin-top: 20px; /*space left for top and bottom*/
+  margin-bottom: 40px;
+  outline: none;
+  border:none;
+  margin-bottom: 10px;
+}
+form button{
+  background: white;
+  border: 2px;
+  color:#a70000;
+  border-radius: 9px;
+  padding: 10px 30px;
+  font-family:'Times New Roman', Times, serif;
+  cursor: pointer;
+  width:140px;
+  height:40px;
+  text-align: center;
+  
+
+  border:none;
+}
+.media{
+  margin-top: 30px;
+}
+.media i{/*icon stuff*/
+  font-size: 22px;
+  margin: 10px;
+  cursor:pointer;
+}
+.backtotop a{
+  text-decoration:none;
+  color:#a70000;
+  font-size:28px;
+  background-color:#B9BAA3;
+  border:2px ridge #a70000;
+  float:right;
+  margin-right: -80%;
+  margin-top: 270px;
+  width:180px;
+  
+  
+}
+.pageeditor a{
+  text-decoration:none;
+  color:#a70000;
+  font-size:28px;
+  background-color:#B9BAA3;
+  border:2px ridge #a70000;
+  float:left;
+  margin-left: 10px;
+  margin-top: 270px;
+  width:160px;
+  font-weight: 300;
+
+}
+.pageeditor a:hover{
+  color:#ffffff;
+  font-weight:500;
+  cursor: pointer;
+}
+
+
+@media all and (max-width:700px){
+  .footer{
+    width: auto;
+  }
+}

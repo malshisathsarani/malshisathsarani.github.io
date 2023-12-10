@@ -1,0 +1,104 @@
+.navbar{
+  position: fixed;
+  background-color: #A22C29;
+  color: white;
+  display: flex;/*elemnts fluid*/
+  justify-content: space-around;
+  align-items: navbar;
+  font-size: 28px;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index:99999;/*will not be overlaid by any other elements*/
+  
+  
+}
+.navlist{
+  list-style-type: none;
+  text-align: center;
+  padding-top:10px;
+
+
+  
+}
+/*list are block levele so to place them side by side use inblock*/
+
+.navlist .list-item{
+  display: inline-block;
+  padding: 10px 10px;
+
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover:not(.activepage){
+  color: black;
+}
+/*weblogo*/
+.weblogo{
+  height: 100px;
+}
+.weblogo {
+  margin-left: -74px;
+  height: 100px;
+  width: 180px;
+  
+
+}
+/*only appears for smaller screens*/
+.hamburger{
+  display: none;
+}
+/*lines of the hamburger icon*/
+.menu-line{
+  width:20px;
+  height:3px;
+  background-color: white;
+  margin-top:4px;
+}
+/*indicate active page*/
+.activepage{
+  background-color: #B9BAA3;
+
+ 
+}
+@media all and (max-width:800px){
+  /*hide menu for larger screens and make it smaller for mobile devices*/
+  .navbar{
+    flex-direction: column;
+    position: relative;
+  }
+  .navbar .weblogo{
+    margin-left: 93px;
+    width: 200px;
+    height:20vh;
+  }
+  /*toggle icon that apeears when the screen is smaller*/
+  .hamburger{
+    display: block;
+    position:absolute;
+    right: 15px;
+    top:15px;
+  }
+  .navlist .list-item{
+    display: inline-block;
+    padding: 10px 10px;
+    border-top:1px solid white;
+    
+  }
+  .navlist{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+
+
+  }/*to mae the navbar block and drop down when clicking on toggle button*/
+  .active{
+    display:block ;
+  }
+  
+
+}
